@@ -1,0 +1,14 @@
+@media(max-width:770px){
+   .header__btn{
+      display: none;
+   }
+   .menu{
+      padding-left: 0;
+      padding-right: 0;
+      &__list-item + &__list-item{
+         padding-left: 40px;
+      }
+   
+       
+   }
+}
